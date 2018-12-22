@@ -11,13 +11,13 @@ import com.jitin.createhtmlwithfreemarker.model.Student;
 import com.jitin.createhtmlwithfreemarker.model.Wrapper;
 import com.jitin.createhtmlwithfreemarker.utility.FreemarkerTemplateProcessor;
 
-public class GenerateHml {
+public class CreateHtmlFile {
 	private static final String TEMPLATE_DIRECTORY = "src/main/resources/templates/";
 	private static final String HTML_CREATION_DIRECTORY = "src/main/resources/createdHtmls/CollegeReport.html";
 	private static final String TEMPLATE_NAME = "Colleges.ftl";
 
 	public static void main(String[] args) {
-		Address studentAddress11 = new Address("PQR Street", "Lucknow", "Uttar Pradesh", 2000000L);
+		Address studentAddress11 = new Address("PQR Street", "Lucknow", "Uttar Pradesh", 200000L);
 		Student student1 = new Student(1L, "Aman Gupta", "BCA", Boolean.TRUE, studentAddress11);
 		Address studentAddress12 = new Address("KLM Street", "Moradabad", "Uttar Pradesh", 300001L);
 		Student student2 = new Student(2L, "Yogesh Verma", "BCA", Boolean.TRUE, studentAddress12);
